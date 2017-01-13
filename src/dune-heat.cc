@@ -15,7 +15,7 @@
 #include<dune/common/parallel/mpihelper.hh>
 #include<dune/common/exceptions.hh>
 #include<dune/common/fvector.hh>
-#include<dune/common/static_assert.hh>
+//#include<dune/common/static_assert.hh>
 #include<dune/common/timer.hh>
 #include<dune/grid/io/file/vtk/subsamplingvtkwriter.hh>
 #include<dune/grid/io/file/gmshreader.hh>
@@ -57,10 +57,10 @@
 #include<dune/pdelab/gridoperator/gridoperator.hh>
 
 #include"example01a_operator.hh"
-#include"example01b_operator.hh"
+//#include"example01b_operator.hh"
 #include"example01a_Qk.hh"
-#include"example01a_RT.hh"
-#include"example01b_Q2.hh"
+//#include"example01a_RT.hh"
+//#include"example01b_Q2.hh"
 
 //===============================================================
 // Main program with grid setup

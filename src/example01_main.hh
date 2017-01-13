@@ -33,9 +33,9 @@ int main(int argc, char** argv)
       typedef Dune::YaspGrid<2>::LeafGridView GV;
       const GV& gv=grid.leafGridView();
       example01a_Qk<1>(gv); // Q1
-      example01a_Qk<2>(gv); // Q2
-      example01a_RT(gv);
-      example01b_Q2(gv);
+      // example01a_Qk<2>(gv); // Q2
+      //example01a_RT(gv);
+      //example01b_Q2(gv);
     }
   }
   catch (Dune::Exception &e){

@@ -46,7 +46,7 @@ public:
     typedef typename LFSU::Traits::SizeType size_type;
         
     // dimensions
-    const int dim = EG::Geometry::dimension;
+    const int dim = 2;
 
     // select quadrature rule
     Dune::GeometryType gt = eg.geometry().type();

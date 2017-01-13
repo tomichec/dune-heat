@@ -9,7 +9,7 @@ void example01a_Qk (const GV& gv)
   typedef Dune::PDELab::QkLocalFiniteElementMap<GV,Coord,Real,k> FEM;
   FEM fem(gv);
   typedef Dune::PDELab::NoConstraints CON;
-  typedef Dune::PDELab::ISTLVectorBackend<> VBE;
+  typedef Dune::PDELab::istl::VectorBackend<> VBE;
   typedef Dune::PDELab::GridFunctionSpace<GV,FEM,CON,VBE> GFS;
   GFS gfs(gv,fem);
   gfs.name("solution");
